@@ -1,7 +1,4 @@
-[app]
-title = Duck AI Miner
-package.name = duckminerbot
-package.domain = org.test
+ = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
