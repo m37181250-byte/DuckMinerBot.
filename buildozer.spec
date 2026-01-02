@@ -7,9 +7,8 @@ version = 0.1
 requirements = python3,kivy,requests,ccxt,certifi
 
 # حل مشکل کلیک اندروید با دسترسی پنجره شناور
-android.permissions = INTERNET, SYSTEM_ALERT_WINDOW
+requirements = python3,kivy,requests
 android.api = 33
 android.archs = arm64-v8a, armeabi-v7a
-
 [buildozer]
 log_level = 2
