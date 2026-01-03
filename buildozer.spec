@@ -5,14 +5,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Build APK
+
+      - name: Build with Buildozer
         uses: ArtemSerebrenninkov/buildozer-action@v1
         with:
           buildozer_version: stable
           python_version: 3.9
-      - name: Upload
+
+      - name: Upload APK
         uses: actions/upload-artifact@v2
         with:
-          name: Duck-Installer
+          name: DuckBot-Installer
           path: bin/*.apk
           
+        
